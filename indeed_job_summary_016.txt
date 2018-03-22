@@ -1,0 +1,11 @@
+Job Requisition Number:63976The Bloomberg Law (BLAW) division of Bloomberg LP provides best-in-class tools, search and analytics for several Bloomberg products in the areas of Law and Government. Our Machine Learning team is looking for an experienced data scientist to join us and contribute to building innovative legal research products using Natural Language Processing (NLP) and Machine Learning. We extract knowledge from hundreds of millions of legal documents and build intelligent models to enable our customers to get the right answers quickly.Our data scientists and engineers work closely with product managers, content team members and market strategists. We apply NLP and Machine Learning techniques to text such as entity extraction and disambiguation, text classification and clustering. As a data scientist on our team you will work with other team members on the latest technology and models to optimize our current line of products.You'll need to have:
+A B.S, M.S. or PhD. in Computer Science, Electrical Engineering, Applied Mathematics or a related field
+3+ years of experience with Machine Learning, Data Science Statistical Models, NLP and Text Analytics on large data sets
+Experience with techniques such as topic modeling, text classification, entity extraction and disambiguation
+A solid understanding of machine learning techniques including Support Vector Machines (SVM), Logistic Regression, Decision Trees, Max entropy, Conditional Random Fields (CRF) and Unsupervised Learning Methods
+1+ year of experience programming in Python
+Experience using R, or other data science toolkits, such as Scikit-learn, NLTK, WEKA, Mallet, CLUTO and GENSIM
+We'd love to see:
+Experience in all phases of machine learning application lifecycles from data gathering and preparation to optimizing model performance
+Publications or presentations in relevant communities (ICML, NIPS, CVPR, SIGIR, ACM Multimedia)
+Legal or financial domain experience

@@ -1,0 +1,77 @@
+---
+title: "Data 607 - Project 3"
+author: "Simon63"
+date: "March 22, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r lib, warning=FALSE, message=FALSE}
+library(RCurl)
+library(XML)
+library(tidyverse)
+library(rvest)
+library(stringr)
+library(ggplot2)
+```
+
+Searching for "Data Scientist $145,000+ in New York, NY" in **indeed.com** gives us this URL to start with:  
+<https://www.indeed.com/q-data-scientist-$145,000-l-New-York,-NY-jobs.html>
+
+####Read [and store] HTML from the starting URL
+```{r }
+#NOTE: provide existing path to store the files
+data_store_path <- "~/R/Project 3"
+
+url <- "https://www.indeed.com/q-data-scientist-$145,000-l-New-York,-NY-jobs.html"
+
+h <- read_html(url)
+write_html(h, file.path(data_store_path,"indeed_job_search.html"))
+```
+
+####Scrape a list of HTML Links to job postings listed on the starting page
+```{r}
+#Search for HTML <a> nodes with CSS class "turnstileLink"
+jobNodes <- html_nodes(h, "a.turnstileLink")
+
+#Filter out nodes with attribute data-tn-element equal to "jobTitle"
+jobNodes <- xml_nodes(jobNodes, xpath = "self::node()[@data-tn-element='jobTitle']")
+
+#Get href attribute value from nodes
+jobURLs <- xml_attr(jobNodes, "href")
+
+#create a complete (absolute) url path
+jobURLs <- paste0("https://www.indeed.com", jobURLs)
+
+#Get job titles
+job_title <- html_text(jobNodes)
+```
+
+####Visit each job posting link and scrape job description for analysis
+```{r}
+job_sum_text <- vector(mode = "character", length = length(jobURLs))
+for (i in 1:length(jobURLs)) {
+  #Visit each HTML page
+  htmFile <- file.path(data_store_path, paste0("indeed_job_post_", str_pad(i, 3, pad = "0"), ".html"))
+  h <- read_html(jobURLs[i])
+  write_html(h, htmFile)
+  
+  #Get HTML nodes with CSS id "job_summary"
+  jobSum <- html_nodes(h, "#job_summary")
+  
+  #Get textual content from the "job summary"" nodes
+  job_sum_text[i] = html_text(jobSum)
+  txtFile <- file.path(data_store_path, paste0("indeed_job_summary_", str_pad(i, 3, pad = "0"), ".txt"))
+  write_lines(job_sum_text[i], txtFile)
+}
+```
+
+####Create a data frame holding the result of scraping (job title, job summary, etc.)
+```{r}
+job_df <- data.frame(job_post_source = "INDEED", job_post_title = job_title, job_post_summary = job_sum_text)
+glimpse(job_df)
+```
+

@@ -1,0 +1,16 @@
+Do you want to help guide the core business of Spotify using insights from analyses and data?
+
+The mission of our Premium Analytics Team is to bring Spotify Premium to more users across the globe and to constantly evolve and improve our offering. You’ll be an essential partner in guiding the growth and direction of Spotify Premium. At your fingertips you’ll have access to petabytes of data, and will get the opportunity to be creative with how you drive insights from that. Above all, your work will impact the way the world experiences music.
+
+You will work with a global team of world-class analysts, data scientists, marketers, business managers and engineers. We are all passionate about what we do, and move forward with high impact projects at a high pace. Learning and improving is part of our daily routine, and you will be free to develop your own skills and ways of working.
+What you’ll do
+Drive business decisions and help tailor our offerings by synthesizing insights and recommendations from troves of data.
+Work with business stakeholders to understand the change they are driving and help them discover new opportunities.
+Design and automate pipelines, experimentation systems, and models to ensure quick delivery of key insights.
+Be an expert and sounding board to our business managers and partners.
+
+Who are you
+You are intellectually curious, creative, and diligent…you enjoy thinking about the business as much as the data.
+Have professional experience with data science techniques such as segmentation, user churn and LTV modeling, experimentation, and/or optimization.
+You have 2-4 years of hands-on experience synthesizing insights from data using tools such as Python, SQL, R. Experience with distributed systems (Redshift, Hadoop, BigQuery) a plus.
+You have studied Economics, Computer Science, Statistics, Engineering or a relevant field.

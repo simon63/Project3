@@ -1,0 +1,42 @@
+Functional Area:
+FA - Finance
+Estimated Travel Percentage (%):
+Relocation Provided:
+AIG PC Global Services, Inc
+Position Summary
+Science team at AIG develops AI-first products (apps and services that use machine learning to inform and assist their users) for both insurance and investment arms of AIG. This is mainly achieved through:
+Incubation of disruptive innovation (via scientists, engineers and designers working together) Machine learning R&D (and publication in top AI/ML conferences and journals) Provision of machine-learning advisory / consulting to AIG's global businesses.
+The resulting solutions and innovations aim to reinvent AIG’s internal processes, improve AIG’s offerings to its clients (in line with the company’s mission to be its clients’ most valued insurer), and ultimately disrupt the wider insurance industry.
+As a critical role in Science’s success, we are looking to hire Statistical Machine Learning Scientists to join our team and contribute to the development and implementation of the algorithmic core of a series of exciting new products / projects.
+This is an exciting opportunity for those who want to enjoy state-of-the-art R&D and be challenged and grow as a Statistical Machine Learning Scientist; along the way this role will contribute to game-changing products for the multi-trillion-dollar insurance industry and use AIG’s (the world’s largest insurer by many metrics) global network to deliver impact and change.
+Responsibilities and Performance Objectives
+Employ the existing (and develop new) Machine Learning algorithms that can find (predictive) patterns in large multi-modal data.
+Provide innovative solutions for business problems (e.g., by translating complex commercial problems to Machine Learning problems).
+Be an active member of teams that provide the business with AI-first apps, and data-driven insights and strategies.
+Participate in, lead, and create cross-functional projects and training.
+Communicate (both oral and written) with colleagues and stakeholders (both internal and external).
+For more senior candidates: Lead, inspire and mentor junior scientists and research assistants (interns).
+Required Attributes
+Both senior candidates (i.e., with years of relevant academic and/or industrial experience) and junior candidates are welcome to apply; we have and will offer positions appropriate to expertise and level of experience.
+The minimum required skills include:
+An advanced degree (e.g., PhD) in a numeric discipline (e.g., Statistics, Machine Learning, Computer Science, Engineering, and Physics).
+Scientific expertise and applied experience in Machine Learning (ideally, a combination of excellent academic research and high-impact commercial projects).
+In depth understanding of common Machine Learning algorithms (e.g., for classification, regression and clustering).
+In depth knowledge of advanced statistical theories, methodologies, and inference tools (e.g., hypothesis testing, (generalized) linear models, additive models, mixture models, non-parametric models).
+Proven track record in some of the advanced topics such as Bayesian inference, hierarchical models, deep learning, Gaussian processes, and causal inference.
+Advanced programming skills in Python and/or R (and their related data processing, Machine Learning, and visualization libraries).
+Practical experience in preparing data for Machine Learning (e.g., using SQL and/or NoSQL technologies).
+Completion of at least one significant project (equivalent of a great PhD research project, and/or a high-impact commercial project) in applied Machine Learning.
+Excellent (written and oral) communication skills.
+An ideal candidate (is not required to, but) will also have:
+Integration of Machine Learning algorithms with big-data platforms (e.g., Spark) and high-performance computing ecosystems (e.g., CUDA).
+Programming in C++ and/or Java.
+Deployment of algorithms as real time / highly available services.
+Integration with front-end systems (e.g., HTML5/ native mobile apps).
+Employing Machine Learning in collaborative commercial settings (e.g., using DevOps methodologies and tools such as GitHub), ideally, in collaboration with product development teams.
+Leading scientific projects.
+Publication record in (and willingness to represent AIG in) top statistic (e.g., JRSS, JASA, Bka, AoS, JRSB, Bcs, and JCGS) and/or machine learning (e.g., AI, TPAMI, IJCV, and JMLR) journals and conferences (e.g., NIPS, ICML, AAAI, CVPR, IJCAI, ACL, EMNLP, and AISTATS).
+Experience of working with engineering and design / product teams.
+Senior candidates should have proven ability to engage with business, formulate technical problems from business needs and craft solutions to shape business priorities.
+It has been and will continue to be the policy of American International Group, Inc., its subsidiaries and affiliates to be an Equal Opportunity Employer. We provide equal opportunity to all qualified individuals regardless of race, color, religion, age, gender, gender expression, national origin, veteran status, disability or any other legally protected categories.
+At AIG, we believe that diversity and inclusion are critical to our future and our mission – creating a foundation for a creative workplace that leads to innovation, growth, and profitability. Through a wide variety of programs and initiatives, we invest in each employee, seeking to ensure that our people are not only respected as individuals, but also truly valued for their unique perspectives

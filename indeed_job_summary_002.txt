@@ -1,0 +1,44 @@
+RESPONSIBILITIES:
+Kforce has a client seeking a Lead/Manager of Data Science based in New York, New York (NY).
+Summary:
+The Manager/Head of Data Science position leads the Data Science and Analytics team. This is a senior position within the organization that will be responsible for the analytics and data science for the organization including developing the strategy and future vision of the area. This is a hands-on leadership position.
+
+The client is looking for a visionary that understands the importance of data insights in a growing organization and is up for the challenge of developing a practice that can harness those insights to drive meaningful business decisions. This position reports directly to VP of Engineering and will have the additional responsibility of managing a staff of 3-5 employees (data scientists).
+
+Manager of Data Science - Python, Pandas, and Numpy Responsibilities:
+Mentor and develop members of the Data Science and Data Analytics Teams
+Apply deep, creative, rigorous thinking to solve broad, platform-wide technical and/or business problems
+Teach, mentor, and collaborate with members of the broader Data Science Data Analytics Teams, both to build out specific projects and to continuously teach and learn new technology and techniques
+Design, conduct, and analyze real-time A/B tests
+Support and guide team in using machine-learning techniques, visualizations, and statistical analysis to gain insight into various data
+Support and guide team in researching, designing, simulating and/or prototyping new algorithmic product features per business need
+Work closely with the team to deliver products that enhance campaign optimization
+REQUIREMENTS:BS in Computer Science, Statistics, Economics, or related field, Masters or PhD is preferred
+6+ years of experience with at least 4 years of hands-on technical experience
+Must have experience with the following: Machine learning algorithms, can code in Python or R, Numpy and Pandas; some understanding of statistics is important
+Experience leading multiple teams
+Experience with applying probabilistic and/or statistical methods to real-world data sets
+Experience delivering multiple complex, scalable, mission critical products
+Solid Computer Science fundamentals including complex distributed systems and space-time complexity
+Experience optimizing machine learning algorithms; experience with predictive algorithms
+Experience with stream processing platforms such as Spark or Storm a plus
+Knowledge of and/or working exposure to the scikit-learn open source library is a plus
+Experience with machine learning techniques; expert knowledge is a major plus
+Strong coding proficiency in SQL and at least one other common scripting or compiled programming language (Python, Java, and/or Scala a plus)
+Experience working in a Linux environment
+
+Kforce is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, gender identity, national origin, age, protected veteran status, or disability status. * BS in Computer Science, Statistics, Economics, or related field, Masters or PhD is preferred
+6+ years of experience with at least 4 years of hands-on technical experience
+Must have experience with the following: Machine learning algorithms, can code in Python or R, Numpy and Pandas; some understanding of statistics is important
+Experience leading multiple teams
+Experience with applying probabilistic and/or statistical methods to real-world data sets
+Experience delivering multiple complex, scalable, mission critical products
+Solid Computer Science fundamentals including complex distributed systems and space-time complexity
+Experience optimizing machine learning algorithms; experience with predictive algorithms
+Experience with stream processing platforms such as Spark or Storm a plus
+Knowledge of and/or working exposure to the scikit-learn open source library is a plus
+Experience with machine learning techniques; expert knowledge is a major plus
+Strong coding proficiency in SQL and at least one other common scripting or compiled programming language (Python, Java, and/or Scala a plus)
+Experience working in a Linux environment
+
+Kforce is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, gender identity, national origin, age, protected veteran status, or disability status.

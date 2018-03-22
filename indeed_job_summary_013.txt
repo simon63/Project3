@@ -1,0 +1,11 @@
+We’re looking for Data Scientists to join our Data Science team with a focus on supporting teams that are responsible for revenue delivery through advertising and subscriptions. Our Data Scientists are using evidence in order to inform decisions across the organization and to build engaging, personally relevant experiences for our users.
+About the role
+In this role you will be responsible for conducting behavioral analyses, designing, running and analyzing experiments, creating dashboards and building predictive models in order to inform decision making in a series of comple x product and business problems. On a daily basis you will help guide the decisions across the business with quantitative insights into user behavior . Our stack includes a wide variety of technologies such as HDFS, Spark, Python, Redshift and Tableau.
+Some projects you might be working on:
+Support integration with 3rd party ad exchanges to optimise media selling
+Refine our understanding of the subscription funnel to improve conversion rates
+Develop and refine multi-touch attribution and churn prediction models to enhance marketing ROI
+About You
+You are an experienced Data Scientist with a curious analytical mindset, strong product intuition and fantastic storytelling skills. You feel comfortable writing SQL queries and Python code and you are willing to learn new technologies. You have a background in a quantitative field (strong academic record preferred) and a track record of applying statistical inference and engineering in real world data science problems. You enjoy working closely with teams and you want to have a real impact in the world of music and creative expression.
+Diversity at SoundCloud
+SoundCloud is for everyone. Diversity and open expression are fundamental to our organization; they help us build a social platform and global community where anyone can create, discover, and share sounds. We acknowledge the challenges in our industry, and strive to develop an inclusive culture where everyone can contribute.

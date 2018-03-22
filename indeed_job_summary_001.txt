@@ -1,0 +1,19 @@
+Job Requisition Number:64749The Fixed Income Real-Time Pricing team provides intraday pricing on a wide variety of asset classes. Our product gives clients unprecedented transparency into the OTC markets. We develop and support several real-time pricing engines customized for different use cases.We are working on new pricing models for the European, Chinese, and various other fixed income markets.The quality of the algorithms we develop must be highly defensible and transparent to those who use the data for trading. We apply various quantitative methods for data cleaning and price generation, and build the tools needed to validate and monitor online quality. Backtesting is a key part of our algorithm development.Some of the biggest technical challenges we face are those of scale; we must produce pricing in real time, while taking in millions of data points per minute. We achieve low latency and high throughput via distributed computing that scales horizontally.As a Data Scientist you will help lead our research efforts as well as develop production-quality systems to further expand our product. You will work closely with our highly-quantitative product side to design the models for these systems.We will trust you to:
+Contribute research and be hands-on in the development of the product
+Partner with stakeholders to understand requirements and take projects fully through the research and software life cycle
+Design models that are highly robust with an emphasis on data integrity and a rigorous, defendable scientific approach
+What's in it for you:
+You will use C++, Python, Jupyter notebook, Redis, Jenkins and Google test, as well as explore cutting-edge technologies like Kafka and Cassandra on the Bloomberg Cloud
+You will tackle some of the biggest scalability challenges in producing real-time pricing while taking in millions of data points per minute
+You’ll need to have:
+3 or more years of industry experience in a quantitative finance role within the fixed income area
+Advanced degree in Mathematics, Statistics, Physics, Engineering, Finance or related field. Strong understanding of object-oriented design and problem solving skills
+Experience leading projects through the complete life cycle from research and development to testing and deployment
+Solid understanding of financial concepts including Fixed Income, Credit, callable bonds, curves, and relative value
+Deep understanding of statistics, probability, inverse problems, stochastic calculus, financial and econometric models, as well as estimation and calibration techniques
+Hands-on experience with C/C++ and Python Quantitative Development.
+Excellent communication and collaboration skills
+Experience with handling large scale data sets
+We’d love to see:
+PhD
+Experience with MATLAB, Mathematica or R
