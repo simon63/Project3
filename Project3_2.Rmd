@@ -1,0 +1,65 @@
+---
+title: "Data 607 - Project 3.2"
+author: "Simon63"
+date: "March 22, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r lib, warning=FALSE, message=FALSE}
+library(RCurl)
+library(XML)
+library(tidyverse)
+library(rvest)
+library(stringr)
+library(ggplot2)
+```
+
+####Get listing of 16 HTML files for the Data Scientist [from Indeed.com] job posts
+```{r }
+#NOTE: provide an existing path (in your environment) in order to store generated output files
+data_store_path <- "~/GitHub/Project3"
+
+jobURLs <- list.files(data_store_path, "indeed_job_post_.*.html")
+head(jobURLs, 3)
+```
+
+####Visit each job posting HTML file and scrape job title and description for analysis
+```{r}
+job_sum_text <- vector(mode = "character", length = length(jobURLs))
+job_title <- vector(mode = "character", length = length(jobURLs))
+
+for (i in 1:length(jobURLs)) {
+  #Visit each HTML page
+  htmFile <- file.path(data_store_path, jobURLs[i])
+  h <- read_html(htmFile)
+
+  #Get HTML nodes with CSS id "job_summary"
+  jobSum <- html_nodes(h, "#job_summary")
+  
+  #Get textual content from the "job summary"" nodes
+  job_sum_text[i] = html_text(jobSum)
+
+  #Collect job title text
+  #Search for HTML <b> nodes with CSS class "jobtitle"
+  jobTitleNode <- html_nodes(h, "b.jobtitle")
+  job_title[i] <- html_text(jobTitleNode)
+}
+```
+
+####Create a data frame holding the result of scraping (job title, job summary, etc.) and save to a file
+```{r}
+job_df <- data.frame(job_post_source = "INDEED", job_post_title = job_title, job_post_summary = job_sum_text)
+glimpse(job_df)
+save(job_df, file = file.path(data_store_path, "jobs_df.RData"), ascii = TRUE)
+```
+
+####To load the data frame object [named job_df] back into the environment call:  
+```{r eval=FALSE}
+load(file.path(data_store_path, "jobs_df.RData"))
+head(jb_df, 2)
+View(job_df)
+```
